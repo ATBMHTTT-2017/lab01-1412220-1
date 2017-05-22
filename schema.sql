@@ -1,3 +1,5 @@
+connect hr/123456;
+
 CREATE TABLE NhanVien
 (
   maNV NCHAR(10),
@@ -72,9 +74,9 @@ INSERT INTO DuAn  VALUES (N'DA002     ', N'Du an 2', 1000, N'PNS       ', N'TDA0
 INSERT INTO DuAn  VALUES (N'DA003     ', N'Du an 3', 100000, N'PTCKT     ', N'TDA003    ');
 INSERT INTO DuAn  VALUES (N'DA004     ', N'Du an 4', 2000, N'PKDCL     ', N'TDA004    ');
 INSERT INTO DuAn  VALUES (N'DA005     ', N'Du an 5', 1200, N'PTCKT     ', N'TDA005    ');
-INSERT INTO NhanVien  VALUES (N'TCN001    ', N'Tran A, N'90 Le Van Viet', N'0123456789     ', N'TCN001123@gmail.com', N'PCSKH     ', N'CN001     ', 1000);
+INSERT INTO NhanVien  VALUES (N'TCN001    ', N'Tran A', N'90 Le Van Viet', N'0123456789     ', N'TCN001123@gmail.com', N'PCSKH     ', N'CN001     ', 1000);
 INSERT INTO NhanVien  VALUES (N'TCN002    ', N'Van B', N'1002 Vo Van Kiet', N'0123456789     ', N'TCN002123@gmail.com', N'PKD       ', N'CN002     ', 2100);
-INSERT INTO NhanVien  VALUES (N'TCN003    ', N'Ho C, N'12 Duong Ba Trac', N'0123456789     ', N'TCN003123@gmail.com', N'PKDCL     ', N'CN003     ', 2300);
+INSERT INTO NhanVien  VALUES (N'TCN003    ', N'Ho C', N'12 Duong Ba Trac', N'0123456789     ', N'TCN003123@gmail.com', N'PKDCL     ', N'CN003     ', 2300);
 INSERT INTO NhanVien  VALUES (N'TCN004    ', N'Nguyen D', N'89 Ly Thai To', N'0123456789     ', N'TCN004123@gmail.com', N'PNS       ', N'CN004     ', 2000);
 INSERT INTO NhanVien  VALUES (N'TCN005    ', N'Tran E', N'78 Le Lai', N'0123456789     ', N'TCN005123@gmail.com', N'PTCKT     ', N'CN005     ', 2200);
 INSERT INTO NhanVien  VALUES (N'TDA001    ', N'Nguyen F', N'123 Nguyen Van Cu', N'0123456789     ', N'TDA001123@gmail.com', N'PCSKH     ', N'CN001     ', 2900);
@@ -97,7 +99,7 @@ INSERT INTO NhanVien  VALUES (N'TP005     ', N'Tham Hong', N'77 Kha Van Can', N'
 INSERT INTO NhanVien  VALUES (N'GD001     ', N'Vo Vinh', N'56 Cong Quynh', N'0123456789     ', N'GD001123@gmail.com', N'PCSKH     ', N'CN001     ', 5000);
 INSERT INTO NhanVien  VALUES (N'NV004     ', N'Ho Thi Huong', N'12 Nguyen Thi Thap', N'0123456789     ', N'NV004123@gmail.com', N'PKD       ', N'CN002     ', 800);
 INSERT INTO NhanVien  VALUES (N'NV005     ', N'Mac Van Ty', N'65 An Duong Vuong', N'0123456789     ', N'NV005123@gmail.com', N'PKDCL     ', N'CN003     ', 1100);
-INSERT INTO NhanVien  VALUES (N'NV006     ', N'Huynh Viet, N'123 Hoa Hung', N'0123456789     ', N'NV006123@gmail.com', N'PKDCL     ', N'CN003     ', 700);
+INSERT INTO NhanVien  VALUES (N'NV006     ', N'Huynh Viet', N'123 Hoa Hung', N'0123456789     ', N'NV006123@gmail.com', N'PKDCL     ', N'CN003     ', 700);
 INSERT INTO NhanVien  VALUES (N'NV007     ', N'Thai Phien', N'432 Hoang Van Thu', N'0123456789     ', N'NV007123@gmail.com', N'PNS       ', N'CN004     ', 800);
 INSERT INTO NhanVien  VALUES (N'NV008     ', N'Tran Ngoc Viet', N'65 Pham Van Hai', N'0123456789     ', N'NV008123@gmail.com', N'PNS       ', N'CN004     ', 1000);
 INSERT INTO NhanVien  VALUES (N'NV009     ', N'Ngoc Nam', N'87 Ly Thuong Kiet', N'0123456789     ', N'NV009123@gmail.com', N'PTCKT     ', N'CN005     ', NULL);
@@ -112,7 +114,7 @@ INSERT INTO PhanCong  VALUES (N'TDA001    ', N'DA001     ', N'Phan cong 6', 220)
 INSERT INTO PhanCong  VALUES (N'TDA002    ', N'DA002     ', N'Phan cong 7', 90);
 INSERT INTO PhanCong  VALUES (N'TDA003    ', N'DA003     ', N'Phan cong 8', 40);
 INSERT INTO PhanCong  VALUES (N'TDA004    ', N'DA004     ', N'Phan cong 9', 200);
-INSERT INTO PhanCong  VALUES (N'TDA005    ', N'DA005     ', N'Phan cong 10, 100);
+INSERT INTO PhanCong  VALUES (N'TDA005    ', N'DA005     ', N'Phan cong 10', 100);
 INSERT INTO PhongBan  VALUES (N'PCSKH     ', N'Phong ban 1', N'TP004     ', N'01/02/2017' , 30, N'CN004     ');
 INSERT INTO PhongBan  VALUES (N'PKD       ', N'Phong ban 2', N'TP001     ', N'01/07//2015', 20, N'CN001     ');
 INSERT INTO PhongBan  VALUES (N'PKDCL     ', N'Phong ban 3', N'TP005     ', N'02/03/2014', 10, N'CN005     ');
